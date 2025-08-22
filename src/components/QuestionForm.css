@@ -1,0 +1,50 @@
+.question-form {
+  margin-top: 20px;
+}
+
+.form-input {
+  width: 100% !important;
+}
+
+.form-textarea {
+  width: 100% !important;
+  min-height: 120px !important;
+  resize: vertical;
+}
+
+/* Input field styling to match wireframe */
+.ui.input > input {
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+  padding: 8px 12px !important;
+}
+
+.ui.input > input:focus {
+  border-color: #2185d0 !important;
+  box-shadow: 0 0 0 1px #2185d0 !important;
+}
+
+/* Textarea styling */
+.ui.form textarea {
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+  padding: 8px 12px !important;
+  font-family: inherit !important;
+}
+
+.ui.form textarea:focus {
+  border-color: #2185d0 !important;
+  box-shadow: 0 0 0 1px #2185d0 !important;
+}
+
+/* Label styling */
+.ui.form .field > label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Field spacing */
+.ui.form .field {
+  margin-bottom: 20px;
+}
